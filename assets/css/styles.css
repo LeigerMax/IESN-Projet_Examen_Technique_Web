@@ -1,0 +1,196 @@
+/* General  */
+
+body{
+    margin-top:20px;
+    color: #1a202c;
+    background-color: #EDEDED;
+    margin-left: 20;
+    margin-right: 20;
+    text-align: center;
+}
+
+h1 {
+	margin: 40px 0 40px;
+	font-size: 30px;
+	color: #003D7A;
+  text-align: center;
+}
+
+h2 {
+	margin: 40px 0 0px;
+	font-size: 25px;
+	color: #003D7A;
+}
+
+h3 {
+	margin: 40px 0 40px;
+	font-size: 20px;
+	color: #003D7A;
+}
+
+table {
+	font-family:Arial, Helvetica, sans-serif;
+	color:#666;
+	font-size:12px;
+	text-shadow: 1px 1px 0px #fff;
+	background:#eaebec;
+	margin:20px;
+	border:#ccc 1px solid;
+  margin:auto;
+}
+
+table th {
+	padding:21px 25px 22px 25px;
+	border-top:1px solid #fafafa;
+	border-bottom:2px solid #e0e0e0;
+	background: #ededed;
+}
+
+table th:first-child {  /* first-childpermet de cibler un élément qui est le premier élément fils par rapport à son élément parent. */
+	text-align: left;
+	padding-left:20px;
+}
+
+table tr {
+	text-align: center;
+	padding-left:20px;
+}
+
+table td:first-child {
+	text-align: left;
+	padding-left:20px;
+	border-left: 0;
+}
+
+table td {
+	padding:18px;
+	border-top: 1px solid #ffffff;
+	border-bottom:1px solid #e0e0e0;
+	border-left: 1px solid #e0e0e0;
+	background: #fafafa;
+}
+
+table tr:hover td {
+	background: #f2f2f2;
+
+}
+
+/* InscriptionAndLogin */
+
+.InscriptionAndLogin  {
+	text-align: center;
+}
+
+.InscriptionAndLogin table tr:hover td { /* pour pas que le hover face effet */
+	background: #fafafa;  /* background couleur de base */
+}
+
+
+/* Profil */
+
+.profilDonne {
+  border:#ccc 2px solid;
+  width:400px;
+	height:250px;
+	background:#fafafa;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.profilDonne h2 {
+  text-align: left;
+  padding-left:20px;
+}
+
+.profilDonne p{
+  text-align: left;
+  padding-left:20px;
+}
+
+.photoprofil {
+  float:right;
+  margin:0 10px 0 20px;
+  border:#ccc 2px solid;
+}
+
+/*  Question/Resultat */
+
+.startExam {
+  margin-left: 20;
+  margin-right: 20;
+  text-align: left;
+}
+
+.resultat h2{
+  text-align: center;
+}
+
+.resultat  p{
+  margin-left: 20;
+  margin-right: 20;
+}
+
+.questionCss {
+  font-size: 17px;
+  color: #003D7A;
+  text-align: left;
+}
+
+.AnswerCss {
+  font-size: 15px;
+  text-align: left;
+}
+.isCorrectCss {
+  font-size: 15px;
+  font-weight: bold;
+  text-align: left;
+}
+
+/* NAV */
+
+.header nav {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.header nav ul {
+  text-align: center;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px #FFFFFF;
+}
+
+.header nav ul li {  /* mettre tout sur une ligne */
+  display: inline-block;
+}
+
+.header nav ul li a { /* Changer la forme des textes */
+  padding: 18px;
+  font-family: "Open Sans";
+  text-transform:uppercase;
+  color: #003D7A ;
+  font-size: 18px;
+  text-decoration: none;
+  display: block;
+}
+
+.header nav ul li a:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.2);
+  color: #004E7A ;
+  text-decoration: underline overline #004E7A;
+}
+
+.header h1 {
+	text-align: center;
+	margin: 40px 0 40px;
+	text-align: center;
+	font-size: 30px;
+	color: #003D7A;
+}
+
+.header h2 {
+	text-align: center;
+	margin: 40px 0 40px;
+	text-align: center;
+	font-size: 25px;
+	color: #003D7A;
+}
