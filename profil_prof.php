@@ -115,14 +115,15 @@ if(isset($_GET['userID']) AND ($_GET['userID'] > 0)) {
               while ($examSelect2 = $menuExamSelect2->fetch()) {
                 if ($examSelect2['examProfilID'] ==  $examProfilIDChoix){
                   if ($examSelect2['examProfilStatus'] == 0) {
-                      echo "L'étudiant n'a pas commencé son examen";
+                    echo "L'étudiant n'a pas commencé son examen";
                   }
                   elseif ($examSelect2['examProfilStatus'] == 2) {
                     echo "L'étudiant n'a pas fini son examen";
                   }
                   else {
                     $_SESSION['choixIdExam'] = $examSelect2['examThemeID'];
-                    header("Location: resultat.php");
+                    header("Location: resultat.php"); //Parfois le header ne fonctionne pas, de se fait j'utilise du javascript.
+                    echo "<script type='text/javascript'>window.top.location='resultat.php';</script>"; exit;
                   }
                 }
               }
