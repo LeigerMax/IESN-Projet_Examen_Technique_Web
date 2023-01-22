@@ -23,7 +23,7 @@
     </li>
     <li><a href="#installation">Installation</a></li>
     <li><a href="#authors">Authors</a></li>
-    <li><a href="#-build_with">Build with</a></li>
+    <li><a href="#-build-with">Build with</a></li>
   </ol>
 </details>
 
